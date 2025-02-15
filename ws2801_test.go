@@ -6,16 +6,15 @@ import (
 
 func TestNewPixels(t *testing.T) {
 	var err error
-	var p *Pixels
 
-	p, err = NewPixels(-1)
+	_, err = NewPixels(-1)
 	if err == nil {
 		t.Fatalf("Could create a LED strip with -1 LEDs")
 	}
 
-	p, err = NewPixels(1)
+	_, err = NewPixels(1)
 	if err != nil {
-		t.Fatalf("Could not create LED strip")
+		t.Fatalf("Could not create LED strip, %s", err)
 	}
 }
 

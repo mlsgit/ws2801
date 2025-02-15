@@ -1,6 +1,8 @@
 [![GoDoc](https://godoc.org/github.com/joernott/ws2801?status.svg)](https://godoc.org/github.com/joernott/ws2801) [![license](https://img.shields.io/badge/license-BSD%203--clause-blue.svg)](https://github.com/joernott/ws2801/LICENSE)
 # ws2801 - a library to address ws2801 led strips connected via SPI
 
+*NOTE*: The original repo is at https://github.com/joernott/ws2801/.
+
 This package controls ws2801 LED strips connected via SPI.
 
 The library has been tested on a raspberry pi zero w with two different ws2801
@@ -10,7 +12,7 @@ LED strips.
 BSD 3-clause license
 
 ## Contributions
-Contributions / Pull requests are welcome. 
+Contributions / Pull requests are welcome.
 
 ## Documentation
 [https://godoc.org/github.com/joernott/ws2801](https://godoc.org/github.com/joernott/ws2801)
